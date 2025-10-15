@@ -1,6 +1,6 @@
-const menubar = document.getElementById("menubar");
-const sidebar = document.getElementById("sidebar");
+const menuBtn = document.getElementById('menubar');
+const sidebar = document.querySelector('.sidebar');
 
-menubar.addEventListener("click", () => {
-  sidebar.classList.toggle("active");
-  });
+menuBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+});
