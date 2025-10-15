@@ -11,7 +11,7 @@ body{
 }
 .title {
     background-color: #23f670;
-    width: 45vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 5px;
